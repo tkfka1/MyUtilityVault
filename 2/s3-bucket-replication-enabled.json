@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-replication-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_REPLICATION_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    }
+}

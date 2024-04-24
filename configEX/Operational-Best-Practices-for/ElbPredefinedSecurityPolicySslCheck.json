@@ -1,0 +1,25 @@
+{
+    "ConfigRuleName": "elb-predefined-security-policy-ssl-check",
+    "InputParameters": {
+        "predefinedPolicyName": {
+            "Fn::If": [
+                "elbPredefinedSecurityPolicySslCheckParamPredefinedPolicyName",
+                {
+                    "Ref": "ElbPredefinedSecurityPolicySslCheckParamPredefinedPolicyName"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_PREDEFINED_SECURITY_POLICY_SSL_CHECK"
+    }
+}

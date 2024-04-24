@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "iam-group-has-users-check",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::Group"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "IAM_GROUP_HAS_USERS_CHECK"
+    }
+}

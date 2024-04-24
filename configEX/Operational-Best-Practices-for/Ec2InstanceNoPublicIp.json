@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-instance-no-public-ip",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::Instance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_INSTANCE_NO_PUBLIC_IP"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-storage-encrypted",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_STORAGE_ENCRYPTED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    }
+}

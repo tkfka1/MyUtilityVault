@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "ec2-stopped-instance",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_STOPPED_INSTANCE"
+    }
+}

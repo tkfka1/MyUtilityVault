@@ -1,0 +1,13 @@
+{
+    "ConfigRuleName": "rds-snapshot-encrypted",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_SNAPSHOT_ENCRYPTED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBSnapshot",
+            "AWS::RDS::DBClusterSnapshot"
+        ]
+    }
+}

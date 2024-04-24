@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cloudtrail-s3-dataevents-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUDTRAIL_S3_DATAEVENTS_ENABLED"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "encrypted-volumes",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ENCRYPTED_VOLUMES"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::Volume"
+        ]
+    }
+}

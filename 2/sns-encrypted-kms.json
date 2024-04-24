@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "sns-encrypted-kms",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "SNS_ENCRYPTED_KMS"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::SNS::Topic"
+        ]
+    }
+}

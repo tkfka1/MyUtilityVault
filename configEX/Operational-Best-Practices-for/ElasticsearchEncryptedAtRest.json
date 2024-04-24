@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "elasticsearch-encrypted-at-rest",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELASTICSEARCH_ENCRYPTED_AT_REST"
+    }
+}

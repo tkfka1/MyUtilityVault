@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "dynamodb-in-backup-plan",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DYNAMODB_IN_BACKUP_PLAN"
+    }
+}

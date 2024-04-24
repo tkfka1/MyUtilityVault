@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "vpc-vpn-2-tunnels-up",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::VPNConnection"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "VPC_VPN_2_TUNNELS_UP"
+    }
+}

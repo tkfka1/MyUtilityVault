@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "codebuild-project-envvar-awscred-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CODEBUILD_PROJECT_ENVVAR_AWSCRED_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::CodeBuild::Project"
+        ]
+    }
+}

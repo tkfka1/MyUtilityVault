@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "wafv2-logging-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "WAFV2_LOGGING_ENABLED"
+    }
+}

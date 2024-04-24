@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "emr-kerberos-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EMR_KERBEROS_ENABLED"
+    }
+}

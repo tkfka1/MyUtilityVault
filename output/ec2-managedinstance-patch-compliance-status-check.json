@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-managedinstance-patch-compliance-status-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_MANAGEDINSTANCE_PATCH_COMPLIANCE_STATUS_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::SSM::PatchCompliance"
+        ]
+    }
+}

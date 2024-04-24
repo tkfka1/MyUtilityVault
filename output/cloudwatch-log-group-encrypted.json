@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cloudwatch-log-group-encrypted",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUDWATCH_LOG_GROUP_ENCRYPTED"
+    }
+}

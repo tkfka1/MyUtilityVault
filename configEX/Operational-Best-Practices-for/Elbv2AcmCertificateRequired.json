@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "elbv2-acm-certificate-required",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELBV2_ACM_CERTIFICATE_REQUIRED"
+    }
+}

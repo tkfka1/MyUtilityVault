@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "sagemaker-notebook-instance-kms-key-configured",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "SAGEMAKER_NOTEBOOK_INSTANCE_KMS_KEY_CONFIGURED"
+    }
+}

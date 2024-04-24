@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "elb-cross-zone-load-balancing-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_CROSS_ZONE_LOAD_BALANCING_ENABLED"
+    }
+}

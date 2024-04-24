@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "alb-waf-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancingV2::LoadBalancer"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ALB_WAF_ENABLED"
+    }
+}

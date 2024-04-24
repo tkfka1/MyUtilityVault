@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "efs-in-backup-plan",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EFS_IN_BACKUP_PLAN"
+    }
+}

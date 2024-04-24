@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "restricted-ssh",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::SecurityGroup"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "INCOMING_SSH_DISABLED"
+    }
+}

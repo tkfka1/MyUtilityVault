@@ -1,0 +1,10 @@
+{
+    "ConfigRuleName": "fsx-resources-protected-by-backup-plan",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "FSX_RESOURCES_PROTECTED_BY_BACKUP_PLAN"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": []
+    }
+}

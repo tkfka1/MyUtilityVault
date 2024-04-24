@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-logging-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_LOGGING_ENABLED"
+    }
+}

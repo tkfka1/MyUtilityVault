@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "securityhub-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "SECURITYHUB_ENABLED"
+    }
+}

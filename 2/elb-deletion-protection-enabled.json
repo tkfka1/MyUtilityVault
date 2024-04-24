@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "elb-deletion-protection-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_DELETION_PROTECTION_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancingV2::LoadBalancer"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "ConfigRuleName": "iam-customer-policy-blocked-kms-actions",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "IAM_CUSTOMER_POLICY_BLOCKED_KMS_ACTIONS"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::Policy"
+        ]
+    },
+    "InputParameters": {
+        "blockedActionsPatterns": "kms:Decrypt,kms:ReEncryptFrom"
+    }
+}

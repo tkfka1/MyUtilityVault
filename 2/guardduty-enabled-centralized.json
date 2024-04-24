@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "guardduty-enabled-centralized",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "GUARDDUTY_ENABLED_CENTRALIZED"
+    }
+}

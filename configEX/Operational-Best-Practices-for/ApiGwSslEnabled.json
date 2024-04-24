@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "api-gw-ssl-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ApiGateway::Stage"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "API_GW_SSL_ENABLED"
+    }
+}

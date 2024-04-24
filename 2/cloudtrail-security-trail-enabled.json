@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cloudtrail-security-trail-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUDTRAIL_SECURITY_TRAIL_ENABLED"
+    }
+}

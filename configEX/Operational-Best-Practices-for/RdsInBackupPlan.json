@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "rds-in-backup-plan",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_IN_BACKUP_PLAN"
+    }
+}

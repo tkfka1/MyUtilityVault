@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "elb-acm-certificate-required",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_ACM_CERTIFICATE_REQUIRED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer"
+        ]
+    }
+}

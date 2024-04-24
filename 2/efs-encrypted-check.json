@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "efs-encrypted-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EFS_ENCRYPTED_CHECK"
+    }
+}

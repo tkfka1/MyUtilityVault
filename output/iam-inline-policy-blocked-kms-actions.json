@@ -1,0 +1,17 @@
+{
+    "ConfigRuleName": "iam-inline-policy-blocked-kms-actions",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "IAM_INLINE_POLICY_BLOCKED_KMS_ACTIONS"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::Group",
+            "AWS::IAM::Role",
+            "AWS::IAM::User"
+        ]
+    },
+    "InputParameters": {
+        "blockedActionsPatterns": "kms:Decrypt,kms:ReEncryptFrom"
+    }
+}

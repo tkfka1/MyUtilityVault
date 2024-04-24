@@ -1,0 +1,20 @@
+{
+    "ConfigRuleName": "access-keys-rotated",
+    "InputParameters": {
+        "maxAccessKeyAge": {
+            "Fn::If": [
+                "accessKeysRotatedParamMaxAccessKeyAge",
+                {
+                    "Ref": "AccessKeysRotatedParamMaxAccessKeyAge"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ACCESS_KEYS_ROTATED"
+    }
+}

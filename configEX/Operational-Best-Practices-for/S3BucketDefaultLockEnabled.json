@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-default-lock-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_DEFAULT_LOCK_ENABLED"
+    }
+}

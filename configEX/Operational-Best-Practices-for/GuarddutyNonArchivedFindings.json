@@ -1,0 +1,42 @@
+{
+    "ConfigRuleName": "guardduty-non-archived-findings",
+    "InputParameters": {
+        "daysHighSev": {
+            "Fn::If": [
+                "guarddutyNonArchivedFindingsParamDaysHighSev",
+                {
+                    "Ref": "GuarddutyNonArchivedFindingsParamDaysHighSev"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "daysLowSev": {
+            "Fn::If": [
+                "guarddutyNonArchivedFindingsParamDaysLowSev",
+                {
+                    "Ref": "GuarddutyNonArchivedFindingsParamDaysLowSev"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "daysMediumSev": {
+            "Fn::If": [
+                "guarddutyNonArchivedFindingsParamDaysMediumSev",
+                {
+                    "Ref": "GuarddutyNonArchivedFindingsParamDaysMediumSev"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "GUARDDUTY_NON_ARCHIVED_FINDINGS"
+    }
+}

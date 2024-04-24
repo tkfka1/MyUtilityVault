@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "kms-cmk-not-scheduled-for-deletion",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "KMS_CMK_NOT_SCHEDULED_FOR_DELETION"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::KMS::Key"
+        ]
+    }
+}

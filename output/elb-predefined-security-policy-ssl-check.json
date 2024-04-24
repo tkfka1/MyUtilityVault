@@ -1,0 +1,15 @@
+{
+    "ConfigRuleName": "elb-predefined-security-policy-ssl-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_PREDEFINED_SECURITY_POLICY_SSL_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer"
+        ]
+    },
+    "InputParameters": {
+        "predefinedPolicyName": "ELBSecurityPolicy-TLS-1-2-2017-01"
+    }
+}

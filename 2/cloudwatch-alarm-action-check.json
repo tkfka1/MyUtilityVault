@@ -1,0 +1,17 @@
+{
+    "ConfigRuleName": "cloudwatch-alarm-action-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUDWATCH_ALARM_ACTION_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::CloudWatch::Alarm"
+        ]
+    },
+    "InputParameters": {
+        "alarmActionRequired": "true",
+        "insufficientDataActionRequired": "true",
+        "okActionRequired": "false"
+    }
+}

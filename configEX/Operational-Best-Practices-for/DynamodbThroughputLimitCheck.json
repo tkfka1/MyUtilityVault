@@ -1,0 +1,31 @@
+{
+    "ConfigRuleName": "dynamodb-throughput-limit-check",
+    "InputParameters": {
+        "accountRCUThresholdPercentage": {
+            "Fn::If": [
+                "dynamodbThroughputLimitCheckParamAccountRCUThresholdPercentage",
+                {
+                    "Ref": "DynamodbThroughputLimitCheckParamAccountRCUThresholdPercentage"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "accountWCUThresholdPercentage": {
+            "Fn::If": [
+                "dynamodbThroughputLimitCheckParamAccountWCUThresholdPercentage",
+                {
+                    "Ref": "DynamodbThroughputLimitCheckParamAccountWCUThresholdPercentage"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DYNAMODB_THROUGHPUT_LIMIT_CHECK"
+    }
+}

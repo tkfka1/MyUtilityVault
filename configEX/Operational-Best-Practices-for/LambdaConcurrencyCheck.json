@@ -1,0 +1,36 @@
+{
+    "ConfigRuleName": "lambda-concurrency-check",
+    "InputParameters": {
+        "ConcurrencyLimitHigh": {
+            "Fn::If": [
+                "lambdaConcurrencyCheckParamConcurrencyLimitHigh",
+                {
+                    "Ref": "LambdaConcurrencyCheckParamConcurrencyLimitHigh"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "ConcurrencyLimitLow": {
+            "Fn::If": [
+                "lambdaConcurrencyCheckParamConcurrencyLimitLow",
+                {
+                    "Ref": "LambdaConcurrencyCheckParamConcurrencyLimitLow"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Lambda::Function"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "LAMBDA_CONCURRENCY_CHECK"
+    }
+}

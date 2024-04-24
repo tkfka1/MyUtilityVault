@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "no-unrestricted-route-to-igw",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::RouteTable"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "NO_UNRESTRICTED_ROUTE_TO_IGW"
+    }
+}

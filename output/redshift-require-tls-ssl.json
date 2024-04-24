@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "redshift-require-tls-ssl",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "REDSHIFT_REQUIRE_TLS_SSL"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Redshift::Cluster"
+        ]
+    }
+}

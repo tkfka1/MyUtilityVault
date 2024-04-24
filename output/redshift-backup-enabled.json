@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "redshift-backup-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "REDSHIFT_BACKUP_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Redshift::Cluster"
+        ]
+    }
+}

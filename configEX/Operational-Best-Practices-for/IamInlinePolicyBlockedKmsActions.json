@@ -1,0 +1,27 @@
+{
+    "ConfigRuleName": "iam-inline-policy-blocked-kms-actions",
+    "InputParameters": {
+        "blockedActionsPatterns": {
+            "Fn::If": [
+                "iamInlinePolicyBlockedKmsActionsParamBlockedActionsPatterns",
+                {
+                    "Ref": "IamInlinePolicyBlockedKmsActionsParamBlockedActionsPatterns"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::Group",
+            "AWS::IAM::Role",
+            "AWS::IAM::User"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "IAM_INLINE_POLICY_BLOCKED_KMS_ACTIONS"
+    }
+}

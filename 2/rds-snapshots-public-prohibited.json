@@ -1,0 +1,13 @@
+{
+    "ConfigRuleName": "rds-snapshots-public-prohibited",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_SNAPSHOTS_PUBLIC_PROHIBITED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBSnapshot",
+            "AWS::RDS::DBClusterSnapshot"
+        ]
+    }
+}

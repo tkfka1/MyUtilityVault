@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-instances-in-vpc",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::Instance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "INSTANCES_IN_VPC"
+    }
+}

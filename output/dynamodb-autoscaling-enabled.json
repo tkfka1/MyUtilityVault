@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "dynamodb-autoscaling-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DYNAMODB_AUTOSCALING_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::DynamoDB::Table"
+        ]
+    }
+}

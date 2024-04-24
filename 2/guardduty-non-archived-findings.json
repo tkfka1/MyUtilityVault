@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "guardduty-non-archived-findings",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "GUARDDUTY_NON_ARCHIVED_FINDINGS"
+    },
+    "InputParameters": {
+        "daysHighSev": "AWS::NoValue",
+        "daysLowSev": "AWS::NoValue",
+        "daysMediumSev": "AWS::NoValue"
+    }
+}

@@ -1,0 +1,69 @@
+{
+    "ConfigRuleName": "restricted-common-ports",
+    "InputParameters": {
+        "blockedPort1": {
+            "Fn::If": [
+                "restrictedIncomingTrafficParamBlockedPort1",
+                {
+                    "Ref": "RestrictedIncomingTrafficParamBlockedPort1"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "blockedPort2": {
+            "Fn::If": [
+                "restrictedIncomingTrafficParamBlockedPort2",
+                {
+                    "Ref": "RestrictedIncomingTrafficParamBlockedPort2"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "blockedPort3": {
+            "Fn::If": [
+                "restrictedIncomingTrafficParamBlockedPort3",
+                {
+                    "Ref": "RestrictedIncomingTrafficParamBlockedPort3"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "blockedPort4": {
+            "Fn::If": [
+                "restrictedIncomingTrafficParamBlockedPort4",
+                {
+                    "Ref": "RestrictedIncomingTrafficParamBlockedPort4"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "blockedPort5": {
+            "Fn::If": [
+                "restrictedIncomingTrafficParamBlockedPort5",
+                {
+                    "Ref": "RestrictedIncomingTrafficParamBlockedPort5"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::SecurityGroup"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RESTRICTED_INCOMING_TRAFFIC"
+    }
+}

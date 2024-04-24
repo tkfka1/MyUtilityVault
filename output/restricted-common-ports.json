@@ -1,0 +1,19 @@
+{
+    "ConfigRuleName": "restricted-common-ports",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RESTRICTED_INCOMING_TRAFFIC"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::SecurityGroup"
+        ]
+    },
+    "InputParameters": {
+        "blockedPort1": "20",
+        "blockedPort2": "21",
+        "blockedPort3": "3389",
+        "blockedPort4": "3306",
+        "blockedPort5": "4333"
+    }
+}

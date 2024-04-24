@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-managedinstance-association-compliance-status-check",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::SSM::AssociationCompliance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_MANAGEDINSTANCE_ASSOCIATION_COMPLIANCE_STATUS_CHECK"
+    }
+}

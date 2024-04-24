@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "ebs-snapshot-public-restorable-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EBS_SNAPSHOT_PUBLIC_RESTORABLE_CHECK"
+    }
+}

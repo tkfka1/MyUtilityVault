@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "lambda-inside-vpc",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "LAMBDA_INSIDE_VPC"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Lambda::Function"
+        ]
+    }
+}

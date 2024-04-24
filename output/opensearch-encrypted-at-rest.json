@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "opensearch-encrypted-at-rest",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "OPENSEARCH_ENCRYPTED_AT_REST"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::OpenSearch::Domain"
+        ]
+    }
+}

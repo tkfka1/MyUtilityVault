@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "iam-user-no-policies-check",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::IAM::User"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "IAM_USER_NO_POLICIES_CHECK"
+    }
+}

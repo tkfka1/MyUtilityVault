@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "api-gw-associated-with-waf",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "API_GW_ASSOCIATED_WITH_WAF"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ApiGateway::Stage"
+        ]
+    }
+}

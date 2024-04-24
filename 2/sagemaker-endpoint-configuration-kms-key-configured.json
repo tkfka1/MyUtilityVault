@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "sagemaker-endpoint-configuration-kms-key-configured",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "SAGEMAKER_ENDPOINT_CONFIGURATION_KMS_KEY_CONFIGURED"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "ConfigRuleName": "redshift-cluster-configuration-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "REDSHIFT_CLUSTER_CONFIGURATION_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Redshift::Cluster"
+        ]
+    },
+    "InputParameters": {
+        "clusterDbEncrypted": "true",
+        "loggingEnabled": "true"
+    }
+}

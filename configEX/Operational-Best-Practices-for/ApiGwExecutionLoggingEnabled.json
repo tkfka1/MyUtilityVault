@@ -1,0 +1,13 @@
+{
+    "ConfigRuleName": "api-gw-execution-logging-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ApiGateway::Stage",
+            "AWS::ApiGatewayV2::Stage"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "API_GW_EXECUTION_LOGGING_ENABLED"
+    }
+}

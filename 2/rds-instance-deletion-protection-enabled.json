@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-instance-deletion-protection-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_INSTANCE_DELETION_PROTECTION_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    }
+}

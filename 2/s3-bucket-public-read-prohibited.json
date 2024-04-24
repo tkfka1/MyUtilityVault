@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-public-read-prohibited",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_PUBLIC_READ_PROHIBITED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    }
+}

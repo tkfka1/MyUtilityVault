@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "s3-account-level-public-access-blocks-periodic",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_ACCOUNT_LEVEL_PUBLIC_ACCESS_BLOCKS_PERIODIC"
+    }
+}

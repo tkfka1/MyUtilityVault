@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "dynamodb-table-encrypted-kms",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DYNAMODB_TABLE_ENCRYPTED_KMS"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::DynamoDB::Table"
+        ]
+    }
+}

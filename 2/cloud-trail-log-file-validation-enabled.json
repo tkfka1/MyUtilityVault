@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cloud-trail-log-file-validation-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUD_TRAIL_LOG_FILE_VALIDATION_ENABLED"
+    }
+}

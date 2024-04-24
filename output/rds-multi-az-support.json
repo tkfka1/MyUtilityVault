@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-multi-az-support",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_MULTI_AZ_SUPPORT"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    }
+}

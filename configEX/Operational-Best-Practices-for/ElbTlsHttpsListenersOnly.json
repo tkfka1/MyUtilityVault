@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "elb-tls-https-listeners-only",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_TLS_HTTPS_LISTENERS_ONLY"
+    }
+}

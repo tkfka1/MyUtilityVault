@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "account-part-of-organizations",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ACCOUNT_PART_OF_ORGANIZATIONS"
+    }
+}

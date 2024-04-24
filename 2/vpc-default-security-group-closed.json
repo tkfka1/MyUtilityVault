@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "vpc-default-security-group-closed",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "VPC_DEFAULT_SECURITY_GROUP_CLOSED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::SecurityGroup"
+        ]
+    }
+}

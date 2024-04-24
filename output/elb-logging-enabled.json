@@ -1,0 +1,13 @@
+{
+    "ConfigRuleName": "elb-logging-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELB_LOGGING_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ElasticLoadBalancing::LoadBalancer",
+            "AWS::ElasticLoadBalancingV2::LoadBalancer"
+        ]
+    }
+}

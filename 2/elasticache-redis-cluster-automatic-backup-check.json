@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "elasticache-redis-cluster-automatic-backup-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ELASTICACHE_REDIS_CLUSTER_AUTOMATIC_BACKUP_CHECK"
+    }
+}

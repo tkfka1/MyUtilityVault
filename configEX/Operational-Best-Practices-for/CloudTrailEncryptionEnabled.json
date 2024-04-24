@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cloud-trail-encryption-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CLOUD_TRAIL_ENCRYPTION_ENABLED"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-instance-detailed-monitoring-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::Instance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_INSTANCE_DETAILED_MONITORING_ENABLED"
+    }
+}

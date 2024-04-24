@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cw-loggroup-retention-period-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CW_LOGGROUP_RETENTION_PERIOD_CHECK"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "alb-http-to-https-redirection-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "ALB_HTTP_TO_HTTPS_REDIRECTION_CHECK"
+    }
+}

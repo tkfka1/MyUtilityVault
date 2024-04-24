@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "ec2-instance-profile-attached",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "EC2_INSTANCE_PROFILE_ATTACHED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::Instance"
+        ]
+    }
+}

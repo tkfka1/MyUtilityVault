@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "opensearch-node-to-node-encryption-check",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::OpenSearch::Domain"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "OPENSEARCH_NODE_TO_NODE_ENCRYPTION_CHECK"
+    }
+}

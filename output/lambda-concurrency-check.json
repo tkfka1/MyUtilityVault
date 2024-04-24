@@ -1,0 +1,16 @@
+{
+    "ConfigRuleName": "lambda-concurrency-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "LAMBDA_CONCURRENCY_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Lambda::Function"
+        ]
+    },
+    "InputParameters": {
+        "ConcurrencyLimitHigh": "1000",
+        "ConcurrencyLimitLow": "500"
+    }
+}

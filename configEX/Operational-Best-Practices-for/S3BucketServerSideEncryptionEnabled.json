@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-server-side-encryption-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_SERVER_SIDE_ENCRYPTION_ENABLED"
+    }
+}

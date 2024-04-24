@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "sagemaker-notebook-no-direct-internet-access",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "SAGEMAKER_NOTEBOOK_NO_DIRECT_INTERNET_ACCESS"
+    }
+}

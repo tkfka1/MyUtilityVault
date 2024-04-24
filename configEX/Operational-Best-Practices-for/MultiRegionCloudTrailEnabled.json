@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "multi-region-cloudtrail-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "MULTI_REGION_CLOUD_TRAIL_ENABLED"
+    }
+}

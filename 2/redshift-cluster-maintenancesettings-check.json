@@ -1,0 +1,15 @@
+{
+    "ConfigRuleName": "redshift-cluster-maintenancesettings-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "REDSHIFT_CLUSTER_MAINTENANCESETTINGS_CHECK"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Redshift::Cluster"
+        ]
+    },
+    "InputParameters": {
+        "allowVersionUpgrade": "AWS::NoValue"
+    }
+}

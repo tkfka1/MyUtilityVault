@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "db-instance-backup-enabled",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DB_INSTANCE_BACKUP_ENABLED"
+    }
+}

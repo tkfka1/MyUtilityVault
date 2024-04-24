@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-ssl-requests-only",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_SSL_REQUESTS_ONLY"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    }
+}

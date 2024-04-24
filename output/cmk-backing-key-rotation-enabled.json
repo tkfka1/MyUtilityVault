@@ -1,0 +1,7 @@
+{
+    "ConfigRuleName": "cmk-backing-key-rotation-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "CMK_BACKING_KEY_ROTATION_ENABLED"
+    }
+}

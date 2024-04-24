@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-logging-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_LOGGING_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    }
+}

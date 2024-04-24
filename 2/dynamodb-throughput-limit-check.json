@@ -1,0 +1,11 @@
+{
+    "ConfigRuleName": "dynamodb-throughput-limit-check",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "DYNAMODB_THROUGHPUT_LIMIT_CHECK"
+    },
+    "InputParameters": {
+        "accountRCUThresholdPercentage": "AWS::NoValue",
+        "accountWCUThresholdPercentage": "AWS::NoValue"
+    }
+}

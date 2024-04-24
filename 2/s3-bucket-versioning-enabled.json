@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "s3-bucket-versioning-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "S3_BUCKET_VERSIONING_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::S3::Bucket"
+        ]
+    }
+}

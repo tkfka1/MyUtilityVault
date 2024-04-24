@@ -1,0 +1,47 @@
+{
+    "ConfigRuleName": "backup-plan-min-frequency-and-min-retention-check",
+    "InputParameters": {
+        "requiredFrequencyUnit": {
+            "Fn::If": [
+                "backupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyUnit",
+                {
+                    "Ref": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyUnit"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "requiredFrequencyValue": {
+            "Fn::If": [
+                "backupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyValue",
+                {
+                    "Ref": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredFrequencyValue"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        },
+        "requiredRetentionDays": {
+            "Fn::If": [
+                "backupPlanMinFrequencyAndMinRetentionCheckParamRequiredRetentionDays",
+                {
+                    "Ref": "BackupPlanMinFrequencyAndMinRetentionCheckParamRequiredRetentionDays"
+                },
+                {
+                    "Ref": "AWS::NoValue"
+                }
+            ]
+        }
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::Backup::BackupPlan"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "BACKUP_PLAN_MIN_FREQUENCY_AND_MIN_RETENTION_CHECK"
+    }
+}

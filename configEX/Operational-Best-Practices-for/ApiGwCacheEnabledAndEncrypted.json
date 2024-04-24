@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "api-gw-cache-enabled-and-encrypted",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::ApiGateway::Stage"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "API_GW_CACHE_ENABLED_AND_ENCRYPTED"
+    }
+}

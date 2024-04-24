@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-enhanced-monitoring-enabled",
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_ENHANCED_MONITORING_ENABLED"
+    },
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    }
+}

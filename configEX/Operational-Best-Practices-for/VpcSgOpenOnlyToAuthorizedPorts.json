@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "vpc-sg-open-only-to-authorized-ports",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::EC2::SecurityGroup"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "VPC_SG_OPEN_ONLY_TO_AUTHORIZED_PORTS"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "aurora-resources-protected-by-backup-plan",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBCluster"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "AURORA_RESOURCES_PROTECTED_BY_BACKUP_PLAN"
+    }
+}

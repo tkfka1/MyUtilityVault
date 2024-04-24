@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "autoscaling-group-elb-healthcheck-required",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::AutoScaling::AutoScalingGroup"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "AUTOSCALING_GROUP_ELB_HEALTHCHECK_REQUIRED"
+    }
+}

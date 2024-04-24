@@ -1,0 +1,12 @@
+{
+    "ConfigRuleName": "rds-instance-public-access-check",
+    "Scope": {
+        "ComplianceResourceTypes": [
+            "AWS::RDS::DBInstance"
+        ]
+    },
+    "Source": {
+        "Owner": "AWS",
+        "SourceIdentifier": "RDS_INSTANCE_PUBLIC_ACCESS_CHECK"
+    }
+}
