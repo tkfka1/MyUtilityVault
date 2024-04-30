@@ -1,11 +1,15 @@
 import images_to_pdf
 import send_email_with_attachment
+from configparser import ConfigParser
 import os
-
 
 path = "#input/"
 output = '#output/output.pdf'
 
+config = ConfigParser()
+config.load('config.ini')
+
+print(config['Email']['send_from']) # value_1
 
 def find_image_files(directory):
     # 지원하는 이미지 파일 확장자 목록
@@ -22,8 +26,6 @@ def find_image_files(directory):
     return image_files
 
 print(find_image_files(path))
-
-
 
 # 이미지 파일 목록과 PDF 이름 지정
 # image_files = ['image1.jpg', 'image2.jpg', 'image3.jpg']
@@ -45,4 +47,4 @@ username = 'your_email@gmail.com'
 password = 'your_app_password'  # 구글 애플리케이션 별 비밀번호
 
 # 이메일 전송
-send_email_with_attachment(send_email_with_attachment(send_from, send_to, subject, body, files, server, port, username, password))
+send_email_with_attachment.send_email_with_attachment(send_from, send_to, subject, body, files, server, port, username, password)
