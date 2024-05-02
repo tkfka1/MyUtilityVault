@@ -7,9 +7,9 @@ path = "#input/"
 output = '#output/output.pdf'
 
 config = ConfigParser()
-config.load('config.ini')
+# config.load('config.ini')
 
-print(config['Email']['send_from']) # value_1
+# print(config['Email']['send_from']) # value_1
 
 def find_image_files(directory):
     # 지원하는 이미지 파일 확장자 목록
@@ -35,16 +35,16 @@ output_pdf = output
 # 이미지를 PDF로 변환
 images_to_pdf.images_to_pdf(image_files, output_pdf)
 
-# 이메일 설정
-send_from = 'your_email@gmail.com'
-send_to = 'receiver_email@gmail.com'
-subject = 'Here is your PDF'
-body = 'Attached the PDF converted from images.'
-files = [output_pdf]
-server = 'smtp.gmail.com'
-port = 465
-username = 'your_email@gmail.com'
-password = 'your_app_password'  # 구글 애플리케이션 별 비밀번호
+# # 이메일 설정
+# send_from = 'your_email@gmail.com'
+# send_to = 'receiver_email@gmail.com'
+# subject = 'Here is your PDF'
+# body = 'Attached the PDF converted from images.'
+# files = [output_pdf]
+# server = 'smtp.gmail.com'
+# port = 465
+# username = 'your_email@gmail.com'
+# password = 'your_app_password'  # 구글 애플리케이션 별 비밀번호
 
-# 이메일 전송
-send_email_with_attachment.send_email_with_attachment(send_from, send_to, subject, body, files, server, port, username, password)
+# # 이메일 전송
+# send_email_with_attachment.send_email_with_attachment(send_from, send_to, subject, body, files, server, port, username, password)
